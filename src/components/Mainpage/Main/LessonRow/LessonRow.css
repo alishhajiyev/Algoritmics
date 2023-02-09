@@ -1,0 +1,36 @@
+#lesson-row{
+    display: flex;
+    /* flex-direction: row; */
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 40px;
+    border-bottom: 1px solid rgb(216, 219, 226);
+}
+#lesson-info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#lesson-header{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    color: rgb(15, 28, 44);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+#lesson-tasks{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    margin: 0px -36px;
+    padding: 3px 12px 32px;
+}

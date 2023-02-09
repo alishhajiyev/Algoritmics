@@ -1,0 +1,22 @@
+#aside{
+    border-right: 1px solid lightgrey;
+    width: 289px;
+    height: calc(100vh - 65px);
+    /* background-color: lightblue; */
+    padding: 20px;
+    box-sizing: border-box
+}
+.p{
+    padding-top: 16px;
+    padding-bottom: 4px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: rgb(15, 28, 44);
+}
+.heading-p{
+    padding-top: 12px;
+    font-size: 24px;
+    font-weight: bold;
+}

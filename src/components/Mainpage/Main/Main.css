@@ -1,0 +1,34 @@
+#main{
+    padding: 20px 50px 0px;
+    width: calc(100vw - 290px);
+    box-sizing: border-box;
+}
+.module-wrapper{
+    padding: 16px 0px 33px;
+}
+.module-num{
+    padding: 15px 0px 8px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: rgb(15, 28, 44);
+}
+.module-name{
+    font-size: 32px;
+    font-weight: bold;
+    white-space: pre-wrap;
+    margin: 0px;
+    color: rgb(15, 28, 44);
+    line-height: 40px;
+}
+
+/* Lessons */
+essons-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    background-color: lightblue;
+}

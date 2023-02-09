@@ -1,0 +1,48 @@
+.lesson-a{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 16px 0px;
+    width: 164px;
+    color: rgb(15, 28, 44);
+    cursor: pointer;
+}
+
+.lesson-div{
+    position: relative;
+    display: flex;
+    flex-shrink: 0;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: rgb(131, 58, 224);
+    transition: background-color 0.2s ease 0s;
+}
+.lesson-svg{
+    color: rgb(255, 220, 64);
+}
+.lesson-title{
+    margin: 10px 0px 0px;
+    color: rgb(15, 28, 44);
+    font-family: "Cera CY", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    position: relative;
+    width: 132px;
+    max-height: 42px;
+    text-align: center;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;   
+}
