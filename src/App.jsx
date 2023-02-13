@@ -1,3 +1,4 @@
+// Packages
 import React from 'react'
 import {
   BrowserRouter,
@@ -5,7 +6,9 @@ import {
   Route,
   Link,
 } from "react-router-dom";
+// Css
 import './App.css'
+// Components
 import MainPage from "./components/Mainpage/MainPage.jsx"
 
 function App() {
@@ -16,6 +19,8 @@ function App() {
     <Routes>
       <Route path="course" element={<MainPage/>} />
       <Route path="/course?module=" element={<MainPage/>} />
+      {/* <Route path="/lesson?lesson=" element={<MainPage/>} /> */}
+
 
 
     </Routes>
