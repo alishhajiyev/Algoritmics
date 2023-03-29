@@ -17,6 +17,8 @@ function App() {
     <div className="App">
     <BrowserRouter>
     <Routes>
+      <Route path="/" element={<><a href="/course" style={{position: "absolute", top: "50%", left:"50%", translate: "-50% -50%", fontSize: "2rem"}}>Click</a></>} />
+      {/* course */}
       <Route path="course" element={<MainPage/>} />
       <Route path="/course?module=" element={<MainPage/>} />
       {/* <Route path="/lesson?lesson=" element={<MainPage/>} /> */}
